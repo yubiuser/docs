@@ -49,6 +49,9 @@ markdown_extensions:
   # Metadata support in pages
   # (https://squidfunk.github.io/mkdocs-material/extensions/metadata/)
   - meta
+  # Tabbed provides a syntax to easily add tabbed Markdown content.
+  # (https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/)
+  - pymdownx.tabbed
 
 nav:
   - Overview: index.md
@@ -70,6 +73,24 @@ nav:
       - 'Overview': database/gravity/index.md
       - 'Group management': database/gravity/groups.md
       - 'Examples': database/gravity/example.md
+  - 'Pi-hole API':
+    - 'Overview': api/index.md
+    - 'DNS':
+      - 'Status': api/dns/status.md
+      - 'Domain Lists': api/dns/lists.md
+      - 'Cache Info': api/dns/cacheinfo.md
+    - 'FTL':
+      - 'Network': api/tbd.md
+      - 'Logs': api/tbd.md
+    - 'Statistics':
+      - 'Summary': api/tbd.md
+      - 'Over time': api/tbd.md
+      - 'Upstreams': api/tbd.md
+      - 'Top Items': api/tbd.md
+      - 'History': api/tbd.md
+    - 'Version': api/tbd.md
+    - 'Authentication': api/tbd.md
+    - 'Settings': api/tbd.md
   - 'FTLDNS':
     - 'Overview': ftldns/index.md
     - 'Configuration': ftldns/configfile.md
@@ -80,7 +101,6 @@ nav:
       - "Overview": ftldns/regex/overview.md
       - "Tutorial": ftldns/regex/tutorial.md
     - 'Privacy levels': ftldns/privacylevels.md
-    - 'Telnet API': ftldns/telnet-api.md
     - 'Compatibility': ftldns/compatibility.md
     - 'Install from source': ftldns/compile.md
     - 'Debugging FTLDNS': ftldns/debugging.md
