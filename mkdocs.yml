@@ -90,6 +90,7 @@ nav:
   - 'Contributing':
     - 'Contributing on GitHub': guides/github/contributing.md
     - 'How to sign-off commits': guides/github/how-to-signoff.md
+    - 'How to fork and rebase': guides/github/how-to-fork-rebase.md
   - 'Guides':
     - 'Pi-hole as All-Around DNS Solution': guides/unbound.md
     - 'Configuring DNS-Over-HTTPS on Pi-hole': guides/dns-over-https.md
