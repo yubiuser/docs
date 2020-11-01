@@ -58,6 +58,10 @@ sudo chmod +x /usr/local/bin/cloudflared
 cloudflared -v
 ```
 
+#### `cloudflared` archive page
+
+You can find all `cloudflared` binary releases on <https://dl.equinox.io/cloudflare/cloudflared/stable/archive>.
+
 ### Configuring `cloudflared` to run on startup
 
 #### Manual way
@@ -150,7 +154,7 @@ proxy-dns-upstream:
 Now install the service via `cloudflared`'s [service command](https://developers.cloudflare.com/argo-tunnel/reference/arguments/#service-command):
 
 ```bash
-sudo cloudflared service install
+sudo cloudflared service install --legacy
 ```
 
 Start the `systemd` service and check its status:
